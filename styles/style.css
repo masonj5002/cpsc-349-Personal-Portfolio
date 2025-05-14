@@ -1,0 +1,77 @@
+/* This is my CSS file -- Mason */
+
+html {
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #00539f;
+    text-shadow: 3px 3px 1px black;
+    font-size: 60px;
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
+    padding: 15px 0;
+    color: rgb(66, 65, 65);
+    font-size: 25;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: hsl(0, 0%, 10%);
+}
+.navbar li {
+    float: left;
+}
+
+p,
+li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+html {
+    background-color: #00539f;
+}
+
+body {
+    width: 600px;
+    margin: 20px;
+    background-color: #ff9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
