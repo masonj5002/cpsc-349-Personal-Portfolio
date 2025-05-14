@@ -1,12 +1,15 @@
 # Personal Portfolio Website
 
-### <https://masonj5002.github.io/cpsc-349-Personal-Portfolio/index.html>
+### Published: <https://masonj5002.github.io/cpsc-349-Personal-Portfolio/index.html>
 
 This is the website for my personal portfolio for CPSC 349 (Web Front-End Engineering) at Cal State Fullerton
 
 ## Screenshots
 
-Coming soon
+| ![](/screenshots/01-home.png) | ![](/screenshots/02-about.png) |
+|------------------------------|------------------------------|
+| ![](/screenshots/03-projects.png) | ![](/screenshots/04-skills.png) |
+~ ![](/screenshots/05-contact.png)
 
 ## Build instructions
 
