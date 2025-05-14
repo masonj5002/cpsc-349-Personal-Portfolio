@@ -39,7 +39,7 @@ body {
 }
 
 .navbar a {
-    color: #E5E7EB;
+    color: #e5e7eb;
     text-decoration: none;
     padding: 15px 20px;
     display: block;
@@ -49,7 +49,7 @@ body {
 }
 
 .navbar a:hover {
-    background-color: #374151
+    background-color: #374151;
 }
 
 /* Headings */
@@ -75,7 +75,7 @@ h2 {
     color: #3d3d3d;
     font-size: 2rem;
     text-align: center;
-    font-family: 'Merriweather', serif;
+    font-family: "Merriweather", serif;
     font-weight: 700;
     letter-spacing: 0.5px;
 }
@@ -86,7 +86,7 @@ li {
     font-size: 1.8rem;
     line-height: 2;
     letter-spacing: 0.5px;
-    color: #000000
+    color: #000000;
 }
 
 main {
@@ -102,8 +102,14 @@ img {
     border-radius: 10px;
 }
 
+.image_subtitle {
+    font-size: 1.4rem;
+    color: #555;
+    margin-top: 8px;
+}
+
 .profile-section {
-    display:flex;
+    display: flex;
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
@@ -122,4 +128,8 @@ img {
 .profile-text {
     flex: 1;
     min-width: 250px;
+}
+
+.profile-image-wrapper {
+    text-align: center;
 }
