@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (yearSpan) {
         yearSpan.textContent = new Date().getFullYear();
     }
+
     // Inject header
     fetch("header.html")
         .then((res) => res.text())
@@ -32,9 +33,27 @@ document.addEventListener("DOMContentLoaded", () => {
     `;
 
     document.body.insertBefore(titleContainer, document.body.firstChild);
+
+    // Handle contact form submission
+    const form = document.getElementById("contact-form");
+    const responseMsg = document.getElementById("form-response");
+
+    if (form && responseMsg) {
+        form.addEventListener("submit", function (e) {
+            e.preventDefault();
+
+            // Disable all form fields
+            Array.from(form.elements).forEach((el) => {
+                el.disabled = true;
+            });
+
+            // Show thank you message
+            responseMsg.style.display = "block";
+            responseMsg.textContent = "Thank you, the message has been sent.";
+        });
+    }
 });
 
-// Optional: highlight the active nav link
 function highlightActiveLink() {
     const current = window.location.pathname.split("/").pop();
     document.querySelectorAll(".navbar a").forEach((link) => {

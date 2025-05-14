@@ -29,11 +29,68 @@
             <h3>Contact Me</h3>
             <p>
                 <em
-                    >To connect with me on social media, please see the bottom
-                    of the page.</em
+                    >Connect with me on social media! See links below</em
                 >
             </p>
             <p>To contact me, please complete the form below:</p>
+
+            <form id="contact-form" style="max-width: 600px; margin: auto">
+                <label for="name">Name:</label><br />
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                    style="width: 100%; padding: 8px; margin-bottom: 10px"
+                /><br />
+
+                <label for="email">Email:</label><br />
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                    style="width: 100%; padding: 8px; margin-bottom: 10px"
+                /><br />
+
+                <label for="message">Message:</label><br />
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="6"
+                    required
+                    style="width: 100%; padding: 8px; margin-bottom: 10px"
+                ></textarea
+                ><br />
+
+                <button
+                    type="submit"
+                    style="
+                        padding: 10px 20px;
+                        font-size: 1.6rem;
+                        background-color: #0071db;
+                        color: white;
+                        border: none;
+                        border-radius: 5px;
+                        cursor: pointer;
+                    "
+                >
+                    Send Message
+                </button>
+            </form>
+
+            <p
+                id="form-response"
+                style="
+                    display: none;
+                    color: green;
+                    font-size: 1.6rem;
+                    text-align: center;
+                    margin-top: 15px;
+                "
+            >
+                Thank you, the message has been sent.
+            </p>
         </main>
         <footer class="site-footer">
             <div class="footer-top">

@@ -73,7 +73,6 @@ h1 {
     text-align: center;
 }
 
-/* Choose a bettor style */
 h2 {
     margin: 0;
     padding: 15px 0;
@@ -105,7 +104,16 @@ h3::after {
     border-radius: 2px;
 }
 
-/* Everything else */
+h4 {
+    font-size: 3.5rem;
+    color: #07345e;
+    font-family: "Raleway", sans-serif;
+    margin: 20px 0 10px;
+    font-weight: 600;
+    font-weight: bold;
+}
+
+/* Paragraph and Lists */
 p,
 li {
     font-size: 1.8rem;
@@ -119,6 +127,7 @@ main {
     margin-right: 20px;
 }
 
+/* Images */
 img {
     display: block;
     margin: 20 auto;
@@ -159,6 +168,63 @@ img {
     text-align: center;
 }
 
+/* Contact form */
+form#contact-form {
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+}
+
+form#contact-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 1.6rem;
+    color: #1a1a1a;
+}
+
+form#contact-form input,
+form#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.6rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+form#contact-form textarea {
+    resize: vertical;
+}
+
+form#contact-form button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 1.6rem;
+    background-color: #0071db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+}
+
+form#contact-form button:disabled {
+    background-color: #a0a0a0;
+    cursor: not-allowed;
+}
+
+#form-response {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.6rem;
+    margin-top: 15px;
+    text-align: left;
+    color: green;
+}
+
+/* Footer */
 .site-footer {
     border-top: 1px solid #ccc;
     margin-top: 40px;
