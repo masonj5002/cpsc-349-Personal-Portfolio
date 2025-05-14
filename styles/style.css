@@ -242,6 +242,47 @@ form#contact-form button:disabled {
     color: green;
 }
 
+/* Project Grid */
+.project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.project-card {
+    flex: 1 1 calc(50% - 40px);
+    max-width: 500px;
+    margin: 10px;
+    text-align: center;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s;
+}
+
+.project-card img:hover {
+    transform: scale(1.03);
+}
+
+.project-card .image_subtitle {
+    margin-top: 10px;
+    font-size: 1.6rem;
+}
+
+.project-card .image_subtitle a {
+    display: inline-block;
+    margin-top: 8px;
+    color: #0071db;
+    text-decoration: underline;
+}
+
 /* Footer */
 .site-footer {
     border-top: 1px solid #ccc;
