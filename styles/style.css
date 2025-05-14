@@ -158,3 +158,33 @@ img {
 .profile-image-wrapper {
     text-align: center;
 }
+
+.site-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 1.25rem;
+    color: #000000;
+    border-top: 1px solid #ccc;
+    flex-wrap: wrap;
+}
+
+.footer-left {
+    text-align: left;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.footer-right a {
+    color: #000000;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.footer-right a:hover {
+    text-decoration: underline;
+}

@@ -1,6 +1,10 @@
 // All the JavaScript for my website -- Mason
 
 document.addEventListener("DOMContentLoaded", () => {
+    const yearSpan = document.getElementById("year");
+    if (yearSpan) {
+        yearSpan.textContent = new Date().getFullYear();
+    }
     // Inject header
     fetch("header.html")
         .then((res) => res.text())
