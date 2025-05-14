@@ -113,6 +113,24 @@ h4 {
     font-weight: bold;
 }
 
+h5 {
+    font-size: 3rem;
+    color: #000000;
+    font-family: "Raleway", sans-serif;
+    margin: 20px 0 10px;
+    font-weight: 600;
+    font-weight: bold;
+}
+
+h6 {
+    font-size: 2.5rem;
+    color: #07345e;
+    font-family: "Raleway", sans-serif;
+    margin: 20px 0 10px;
+    font-weight: 600;
+    font-weight: bold;
+}
+
 /* Paragraph and Lists */
 p,
 li {
