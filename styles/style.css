@@ -3,6 +3,16 @@
 html {
     font-size: 10px;
     font-family: "Open Sans", sans-serif;
+    background-color: #024d94;
+}
+
+body {
+    width: 600px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0, 4px, 6px, rgba(0, 0, 0, 0.1);
 }
 
 .navbar ul {
@@ -13,55 +23,59 @@ html {
     overflow: hidden;
 }
 
-.navbar a {
-    color: white;
-    text-decoration: none;
-    padding: 15px;
-    display: block;
-    text-align: center;
+/* Nav Bar */
+.navbar ul {
+    list-style-type: none;
+    background-color: #1f2937;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
 }
 
-.navbar a:hover {
-    background-color: hsl(0, 0%, 10%);
-}
 .navbar li {
     float: left;
 }
 
+.navbar a {
+    color: #E5E7EB;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    /* Smooth transition */
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #374151
+}
+
+/* Headings */
 h1 {
     margin: 0;
     padding: 20px 0;
-    color: #00539f;
-    text-shadow: 3px 3px 1px black;
-    font-size: 60px;
+    color: #0071db;
+    text-shadow: 2px 2px 0px black;
+    font-size: 6rem;
     text-align: center;
 }
 
+/* Choose a bettor style */
 h2 {
     margin: 0;
     padding: 15px 0;
-    color: rgb(66, 65, 65);
+    color: #6366F1;
     font-size: 25;
     text-align: center;
 }
 
+/* Everything else */
 p,
 li {
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 2;
-    letter-spacing: 1px;
-}
-
-html {
-    background-color: #00539f;
-}
-
-body {
-    width: 600px;
-    margin: 20px;
-    background-color: #ff9500;
-    padding: 0 20px 20px 20px;
-    border: 5px solid black;
+    letter-spacing: 0.5px;
+    color: #000000
 }
 
 main {
@@ -71,7 +85,8 @@ main {
 
 img {
     display: block;
-    margin: 0 auto;
+    margin: 20 auto;
     max-width: 100%;
     height: auto;
+    border-radius: 10px;
 }
