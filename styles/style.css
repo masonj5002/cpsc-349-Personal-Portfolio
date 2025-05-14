@@ -160,23 +160,41 @@ img {
 }
 
 .site-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    border-top: 1px solid #ccc;
     margin-top: 40px;
     padding: 20px;
     font-size: 1.25rem;
     color: #000000;
-    border-top: 1px solid #ccc;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 12px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.footer-icons a img {
+    width: 24px;
+    height: 24px;
+    margin-left: 12px;
+    vertical-align: middle;
+    transition: opacity 0.3s;
+}
+
+.footer-icons a img:hover {
+    opacity: 0.7;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
-}
-
-.footer-left {
-    text-align: left;
-}
-
-.footer-right {
-    text-align: right;
+    align-items: center;
 }
 
 .footer-right a {
